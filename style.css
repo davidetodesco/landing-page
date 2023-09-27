@@ -22,7 +22,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 96px;
+    padding: 32px 128px;
 }
 
 .header-logo {
@@ -34,17 +34,103 @@ a {
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding: 128px 96px;
+    padding: 128px 128px;
     justify-content: center;
 }
 
 .hero-text {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 16px;
+    flex: 1;
 }
 
 .hero-heading {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.hero-image {
+    background-color: grey;
+    color: #f9faf8;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.hero-sec {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 4px;
+    border-style: none;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+.infos {
+    padding-bottom: 128px
+}
+
+.infos-header {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.infos-container{
+    display: flex;
+    justify-content: center;
+}
+
+.infos-parts {
+    margin: 24px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.infos-img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 128px 256px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    flex-wrap: wrap;
+    color: #1f2937;
+}
+
+.quote-author {
+    justify-content: flex-end;
+    margin-right: 36px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
 }
