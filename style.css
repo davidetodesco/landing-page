@@ -121,16 +121,48 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    display: flex;
-    flex-wrap: wrap;
     color: #1f2937;
 }
 
 .quote-author {
-    justify-content: flex-end;
+    text-align: right;
     margin-right: 36px;
     margin-top: 16px;
     font-weight: bold;
     font-style: normal;
     font-size: 18px;
+}
+
+.action {
+    margin: 96px;
+    display: flex;
+    background-color: #3882f6;
+    padding: 48px 96px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.action-text {
+    flex: 3 3 auto;
+}
+
+.action-button button {
+    padding: 4px 32px;
+    margin-left: 32px;
+    align-self: center;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    color: #e5e7eb;
+}
+
+.action-heading {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: large;
+}
+
+.action-norm {
+    color: #f9faf8;
+    font-size: medium;
 }
